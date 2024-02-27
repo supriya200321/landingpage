@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+#top{
+    height:15%;
+    width:100%;
+    background-color: whitesmoke;
+    color: black;
+}
+
+#bottom{
+    height:85%;
+    width:100%;
+    background-color:#D0D4D5 ;
+    color:white;
+    position: relative;
+    display: flex;
+}
+
+#nav{
+    height: 100px;
+    padding:0 60px;
+    width:100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#nav img{
+    height: 55px;
+    margin-right:100px;
+}
+#navone{
+    display: flex;
+    align-items: center;
+    justify-content:center;   
+}
+#navone h4{
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: 600px;
+    text-transform: capitalize;
+}
+#navtwo i{
+    margin-right: 60px;
+    font-size: 21px;
+    font-weight: 500px;
+}
+#left{
+    height:100%;
+    width:30%;
+    background-color: black;
+    padding:70px 100px;
+    
+}
+#right{
+    height: 100%;
+    width: 70%;
+    position: relative;
+    padding:135px 12px;
+    white-space: nowrap;
+    background-color: black;
+}
+#left h1{
+    color:white;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size:30px;
+    text-transform: capitalize;
+}
+#left p{
+    font-size:18px;
+    margin-bottom: 40px;
+}
+#left button{
+    font-size: 15px;
+    padding:10px 8px;
+    border-radius:50px;
+    border-top-right-radius:25% ;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    text-transform: capitalize;
+    background-color: lavender;  
+}
+#left button:hover{
+    background-color: aqua;
+}
+#elem{
+    width:240px;
+    height: 320px;
+    background-color: black;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.3);
+    display: inline-block;
+    margin-right: 16px;
+}
+#elem:hover{
+    background-color: black;
+    height:340px;
+}
+#elem img{
+    height: 89%;
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+}
+#elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    text-transform: capitalize;
+    background-color:black;
+    padding: 5px 12px;
+}
